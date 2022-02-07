@@ -15,12 +15,14 @@ It uses paging to reduce the overall weight over networking and increase the ove
 3. Run the command
 	```docker run -p 3000:3000 jumia-frontend```
 4. Visit: <http://localhost:3000/> (should display Web Page)
+   - If the page shows with empty content it means that the REST API that feeds this page is offline
+   - If the page shows with results then everything is working smoothly
 
 
 ## Concepts
 
-1. Pagination & Sorting - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination & sorting
-2. Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
+- Pagination & Sorting - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination & sorting
+- Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
 
 ## License
 
