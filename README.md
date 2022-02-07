@@ -4,7 +4,8 @@ This documentation describes aspects and procedures to run this ReactJS
 
 ## Overview
 
-This API was developed using Springboot 2.1.6.  It uses paging to reduce the overall weight over networking and increase the overall performance.
+This Frontend was developed using the latest reactjs version.  
+It uses paging to reduce the overall weight over networking and increase the overall performance.
 
 ## Running the Example
 
@@ -18,9 +19,9 @@ This API was developed using Springboot 2.1.6.  It uses paging to reduce the ove
 
 ## Concepts
 
-Pagination - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination
+Pagination & Sorting - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination & sorting
 Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+[Apache 2.0](https://github.com/danielfcastro/jumia-frontend/blob/main/LICENSE)
