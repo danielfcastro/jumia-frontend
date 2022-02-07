@@ -19,8 +19,8 @@ It uses paging to reduce the overall weight over networking and increase the ove
 
 ## Concepts
 
-Pagination & Sorting - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination & sorting
-Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
+1. Pagination & Sorting - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination & sorting
+2. Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
 
 ## License
 
