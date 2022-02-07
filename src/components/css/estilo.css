@@ -1,0 +1,15 @@
+.titulo {
+  /* Center horizontally*/
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+}
+
+.logo{
+	float:left;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
