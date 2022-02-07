@@ -1,18 +1,26 @@
-# Jumia Services Exercise
+# Frontend - Customers
 
-This is the code written by Carlos Silva.
+This documentation describes aspects and procedures to run this ReactJS
 
-Here, you can find the designated details to test:
+## Overview
 
-- **Build the Dockerfile**
+This API was developed using Springboot 2.1.6.  It uses paging to reduce the overall weight over networking and increase the overall performance.
 
-> In order to get the application running, the following docker command;
-> > docker build -t react/jumia-react-docker .
+## Running the Example
 
-> Then run the next one:
-> > docker run -p 3000:3000 react/jumia-react-docker
+1. Using the bash or command prompt navigate to the project directory
+2. Run the command:
+	```docker build -t jumia-frontend .```
+3. Run the command
+	```docker run -p 3000:3000 jumia-frontend```
+4. Visit: <http://localhost:3000/> (should display Web Page)
 
 
-- **Get All the phone numbers**
+## Concepts
 
->It is necessary to open your browser pointing to http://<address>:3000
+Pagination - It uses 3 query string parameters, namely: 'page', 'size' and 'sort' to implement the pagination
+Filter - It allows you to filter your results by Country and State (meaning if your phone has a valid rule of formation or not)
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
