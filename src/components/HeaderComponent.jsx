@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Logo from './img/jumia.jpg'
 import "./css/estilo.css";
 
 class HeaderComponent extends Component {
