@@ -71,12 +71,13 @@ class ListCustomerComponent extends React.Component {
 		const { selectedState } = this.state.selectedState;
 		return (
 			<div>
-				<div style={{position: 'relative', left: '10%', top: '50%'}}>
-					<label htmlFor="state">
+				<div style={{position: 'relative', left: '10%', top: '50%'}} id="divGroup" data-testid="divGroup">
+					<label htmlFor="state" id="lblState" data-testid="lblState">
 						<span className="visually-hidden">State</span>
 					</label>			
 					<select type="text"
 						id="state"
+						data-testid="state"
 						placeholder="state"
 						name="state"
 						value={selectedState}
@@ -87,11 +88,12 @@ class ListCustomerComponent extends React.Component {
 					</select> <br/>
 
 			
-					<label htmlFor="country">
+					<label htmlFor="country" id="lblCountry" data-testid="lblCountry">
 						<span className="visually-hidden">Countries</span>
 					</label>			
 					<select type="text"
 						id="country"
+						data-testid="country"
 						placeholder="country"
 						name="country"
 						value={selectedCountry}
@@ -105,6 +107,8 @@ class ListCustomerComponent extends React.Component {
 					</select>
 				</div>
 			<DynamicDataTable
+				id="resultTable"
+				data-testid="resultTable"
 				rows={this.state.content}
 				fieldsToExclude={['links']}
 				buttons={[]}
